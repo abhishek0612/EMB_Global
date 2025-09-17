@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EMB_Global">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="EMB_Automate.Login"/>
+      <class name="EMB_Automate.Add_Patient"/>
+    
+    </classes>
+  </test> <!-- CurrentAccount -->
+</suite> <!-- BankSystem -->
